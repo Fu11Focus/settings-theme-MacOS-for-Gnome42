@@ -13,10 +13,10 @@ And you can run this:
 ### Set settings
 Let's go run `Tweaks` application and set appearance how on next screenshot: 
 
-> ![appearance](//img/screen3.png) You can set dark or light theme.
+> ![appearance](/img/screen3.png) You can set dark or light theme.
 > 
 > Use *SF Pro Display* font for system view:
-> ![appearance](//img/screen4.png)
+> ![appearance](/img/screen4.png)
 > 
 >Window Titlebars > Placement set to `left` 
 ### Install gnome extensions
