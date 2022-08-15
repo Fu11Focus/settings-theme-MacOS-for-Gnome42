@@ -28,5 +28,5 @@ cp fildem.desktop ~/.config/autostart/fildem.desktop
 
 cp -r plank-MacOS-theme ~/.local/share/plank/themes/
 
-cp big-sur-wallpaper.jpg ~/Pictures/
+cp img/big-sur-wallpaper.jpg ~/Pictures/
 
