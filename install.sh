@@ -26,7 +26,21 @@ cp .gtkrc-2.0 ~/.gtkrc-2.0
 cp settings.ini ~/.config/gtk-3.0/settings.ini
 cp fildem.desktop ~/.config/autostart/fildem.desktop
 
-cp -r plank-MacOS-theme ~/.local/share/plank/themes/
+cp -r plank-macOS-theme ~/.local/share/plank/themes/
 
 cp img/big-sur-wallpaper.jpg ~/Pictures/
 
+#install chrome and gnome extensions for chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+sudo apt-get install chrome-gnome-shell
+
+git clone https://gitlab.gnome.org/nE0sIghT/gnome-browser-connector.git
+
+cd gnome-browser-connector
+
+sudo apt install meson
+meson --prefix=/usr builddir
+meson install -C builddir
